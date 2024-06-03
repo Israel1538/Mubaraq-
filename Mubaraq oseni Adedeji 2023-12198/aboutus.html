@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #ffffff 0%, #000000 100%); /* Vibrant gradient background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .about {
+      background-color: rgb(255, 255, 255); /* Black with transparency */
+      padding: 10px;
+      border-radius: 20px;
+      margin-bottom: 5px;
+      color: #0c0a0a;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 2s ease-in-out;
+    }
+    .about h1 {
+      font-size: 2.2rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .unit1 {
+      background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 25px;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      width: 200mm; /* A4 width in mm */
+      max-width: 100%;
+      height: 160mm; /* Adjust height */
+      max-height: 100%;
+      overflow: show; /* Remove scrollbar */
+      color: #000;
+    }
+    .unit1 h1 {
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @media (max-width: 768px) {
+      .unit1, .about {
+        margin: 10px;
+        padding: 20px;
+        height: auto; /* Adjust height for smaller screens */
+      }
+      .unit1 h1, .about h1 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="unit1">
+    <div class="about">
+      <h1>About Me</h1>
+    </div>
+    <h1>
+      My name is Oseni Mubaraq Adedeji. I am a 6 feet tall student at Bells University, located in the beautiful Ogun State. At the age of 16, I am pursuing a degree in Information Technology with a passion for coding and technology. 
+      
+      Aside from my academic pursuits, I enjoy playing video games, which not only serve as a fun pastime but also inspire me to think creatively about game development. My ambition is to become a full-time developer, contributing to innovative projects that can make a significant impact on the world.
+      
+      I am particularly interested in web development, AI, and machine learning. I chose Information Technology as my field of study because I am driven by the desire to understand and leverage the latest technological advancements.
+      
+      This is my portfolio, a testament to my dedication and aspirations in the field of technology.
+    </h1>
+  </div>
+</body>
+</html>
